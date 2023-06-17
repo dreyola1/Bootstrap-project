@@ -1,0 +1,62 @@
+<h1 class="test display-6 fst-italic mt-3 w-75 m-auto bg-success text-center border border-5 border-danger rounded rounded-5 rounded-circle text-capitalize fw-bold">hello world</h1>
+
+<a href="" class="text-decoration-none mb-2">Homepage</a>
+
+<ul class="d-flex nav flex-row bg-primary justify-content-around align-items-center">
+    <li>Home</li>
+    <li>Contact</li>
+    <li>About</li>
+    <button>Submit</button>
+</ul>
+
+<!-- <div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-4 bg-danger">1</div>
+        <div class="col-12 col-sm-4 bg-warning">2</div>
+        <div class="col-12 col-sm-4 bg-success">3</div>
+    </div>
+</div> -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-sm-4 col-md-3 bg-danger">1</div>
+        <div class="col-12 col-sm-4 col-md-3 bg-warning">2</div>
+        <div class="col-12 col-sm-2 col-md-3 bg-success">3</div>
+        <div class="col-12 col-sm-2 col-md-3 bg-dark">4</div>
+
+    </div>
+</div>
+
+
+NAVBAR
+
+            <header>
+        <nav class="navbar navbar-expand-md bg-success navbar-dark">
+
+            <a href="" class="navbar-brand">Logo</a>
+
+            <button class="navbar-toggler" data-bs-target="#links" data-bs-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="links">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="">Contact</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="">Payment</a></li>
+
+                    <li class="nav-item dropdown" data-bs-toggle="dropdown">
+                        <a class="nav-link dropdown-toggle" href="">Services</a>
+
+                        <div class="dropdown-menu">
+                            <a href="" class="dropdwon-item">Coding</a>
+                            <a href="" class="dropdwon-item">CryptoCurrency Trading</a>
+                        </div>
+                    
+                    </li>
+                </ul>
+             </div>
+
+        </nav>
+        
+    </header>
