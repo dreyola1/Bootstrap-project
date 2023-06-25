@@ -60,3 +60,20 @@ NAVBAR
         </nav>
         
     </header>
+
+$(document).ready(function(){
+    let amt = $('.col-md-4:first-child .card-text').text()
+    let email = 'test@example.com'
+
+    fetch('api.paystack.co/transaction/initialize', {
+        headers: {
+            Authorization: 'Bearer sk_test_b42bf3c8f71d9da8372a37f38b372050b5e8872d',
+            'Content-Type': 'application/json'
+        },
+        method: 'POST',
+    }).then(function(response){
+        response.json()
+    }).then(function(response){
+        
+    })
+})
